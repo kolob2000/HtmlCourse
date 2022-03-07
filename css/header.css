@@ -1,0 +1,26 @@
+.header {
+    background: #222222;
+    padding: 18px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.left-menu__list, .right-menu__list {
+    display: flex;
+    align-items: baseline;
+}
+
+.left-menu__list {
+    gap: 41px;
+}
+
+.right-menu__list {
+    gap: 33px;
+}
+
+
+
