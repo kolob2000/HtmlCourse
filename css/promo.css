@@ -3,7 +3,13 @@
 }
 
 .promo-wrap {
-    display: flex
+    display: flex;
+    justify-content: flex-end;
+    height: 764px;
+    background: url("../img/promo_back.png") no-repeat;
+    background-position-x: -227px;
+    background-position-y: 0;
+
 }
 
 .promo-img {
@@ -12,11 +18,13 @@
 }
 
 .promo-slogan {
-    margin-top: 25.4386%;
+    /*margin-top: 25.4386%;*/
     /*отступ пикселей в процентах деленный на
     (ширину в пикселях деленную на высоту в пикселях) = резиновому отступу в процентах
     (290px / (764/100)) / (1140/764)
     */
+    margin-top: 290px;
+    margin-right: 101px;
     text-transform: capitalize;
 }
 

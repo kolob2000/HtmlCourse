@@ -22,5 +22,9 @@
     gap: 33px;
 }
 
-
+.menu-link_button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
 
