@@ -23,6 +23,9 @@
     (ширину в пикселях деленную на высоту в пикселях) = резиновому отступу в процентах
     (290px / (764/100)) / (1140/764)
     */
+    height: 92px;
+    padding-left: 16px;
+    border-left: 12px #F16D7F solid;
     margin-top: 290px;
     margin-right: 101px;
     text-transform: capitalize;

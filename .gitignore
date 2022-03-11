@@ -409,6 +409,7 @@ pip-selfcheck.json
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
-/file.css
-/file.html
+/parallax/style.css
+/parallax/index.html
 /img_p/
+/parallax/
