@@ -1,0 +1,143 @@
+.content {
+    padding: 65px 0 95px;
+    flex-grow: 1;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.catalogs-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 260px;
+    text-transform: uppercase;
+    background-blend-mode: overlay;
+}
+
+.women-item {
+    background: url("../img/women_cat.png") rgba(33, 22, 22, 0.7) center center;
+
+}
+
+.men-item {
+    background: url("../img/men_cat.png") rgba(33, 22, 22, 0.7) center center;
+
+}
+
+.kids-item {
+    background: url("../img/kid_cat.png") rgba(33, 22, 22, 0.7) center center;
+
+}
+
+.accessories-item {
+    background: url("../img/accesories_cat.png") rgba(33, 22, 22, 0.7) center center;
+    width: 100%;
+    height: 180px;
+}
+
+.catalogs-categories {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.catalogs-deal {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.offer {
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.offer-heading {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    margin-bottom: 6px;
+}
+
+.offer-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    margin-bottom: 48px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 581px;
+    background: #f8f8f8;
+}
+
+.product-img {
+    width: 100%;
+    height: 420px;
+    object-fit: scale-down;
+}
+
+.product-description {
+    padding-top: 23px;
+    padding-left: 16px;
+    padding-right: 29px;
+}
+
+.product-title {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.product-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding: 13px 0 18px;
+}
+
+.product-price {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.offer-link {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #F26376 1px solid;
+    width: 212px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 19px;
+}

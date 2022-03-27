@@ -1,0 +1,79 @@
+.header {
+    background: #222222;
+    padding: 18px 0;
+    position: relative;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.left-menu__list, .right-menu__list {
+    display: flex;
+    align-items: baseline;
+}
+
+.left-menu__list {
+    gap: 41px;
+}
+
+.right-menu__list {
+    gap: 33px;
+}
+
+.menu-link_button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.burger-popover_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    width: 232px;
+    min-height: 764px;
+    right: 0;
+    top: 100%;
+    padding: 16px 16px 0 34px;
+}
+
+.burger-popover_close {
+    background: transparent;
+    border: none;
+    align-self: flex-end;
+    margin-bottom: 9px;
+}
+
+.burger-top_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-item_burger > a {
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.burger-inner_list {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 12px;
+    margin-left: 22px;
+}
+
+.inner-item_burger > a {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-transform: capitalize;
+}
+

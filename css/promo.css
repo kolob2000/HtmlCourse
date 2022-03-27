@@ -1,0 +1,46 @@
+.promo {
+    background: #F1E4E6;
+}
+
+.promo-wrap {
+    display: flex;
+    justify-content: flex-end;
+    height: 764px;
+    background: url("../img/promo_back.png") no-repeat;
+    background-position-x: -227px;
+    background-position-y: 0;
+
+}
+
+.promo-img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.promo-slogan {
+    /*margin-top: 25.4386%;*/
+    /*отступ пикселей в процентах деленный на
+    (ширину в пикселях деленную на высоту в пикселях) = резиновому отступу в процентах
+    (290px / (764/100)) / (1140/764)
+    */
+    height: 92px;
+    padding-left: 16px;
+    border-left: 12px #F16D7F solid;
+    margin-top: 290px;
+    margin-right: 101px;
+    text-transform: capitalize;
+}
+
+.promo-heading1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.promo-text {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
