@@ -29,6 +29,16 @@
     cursor: pointer;
 }
 
+.menu-link_button, .menu-link {
+    fill: #E8E8E8;
+    font-size: 29px;
+    line-height: 0;
+}
+
+.menu-link_button:hover, .menu-link:hover {
+    fill: #F16D7F;
+}
+
 .burger-popover_menu {
     display: flex;
     flex-direction: column;
@@ -47,6 +57,7 @@
     border: none;
     align-self: flex-end;
     margin-bottom: 9px;
+    cursor: pointer;
 }
 
 .burger-top_list {

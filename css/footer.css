@@ -24,3 +24,19 @@
     justify-content: space-between;
     gap: 8px;
 }
+
+.social-link{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    fill: #000000;
+}
+
+.social-link:hover{
+    background-color: #F16D7F;
+    fill: #FFFFFF;
+}

@@ -1,5 +1,5 @@
 .subscribe {
-    background:  url("../img/subscribe_back.jpg") rgba(244, 244, 244, 0.7) no-repeat left;
+    background: url("../img/subscribe_back.jpg") rgba(244, 244, 244, 0.7) no-repeat left;
     background-blend-mode: overlay;
     background-size: cover;
     color: #222224;
@@ -96,6 +96,7 @@
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {
