@@ -1,0 +1,159 @@
+.registration {
+  flex-grow: 1;
+  padding: 96px 0 64px;
+}
+
+.wrap-registration {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 128px;
+}
+
+.registration-form {
+  @include flex_container($direction: column, $justify: flex-start);
+
+  input::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+  }
+
+  input:not([type="radio"]) {
+    width: 360px;
+    height: 45px;
+    border: 1px solid #A4A4A4;
+    padding-left: 17px;
+    outline: none;
+    color: darken(#B1B1B1, 25%);
+  }
+}
+
+.registration-names, .registration-login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-heading {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.registration-gender {
+  margin: 31px 0 33px;
+  display: flex;
+  gap: 20px;
+
+  .gender-item {
+    display: flex;
+    //gap: 10px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+  }
+}
+
+.gender-radio {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.gender-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.gender-label:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '';
+  width: 17px;
+  padding: 0.2rem;
+  height: 17px;
+  border: 1px solid #A4A4A4;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.gender-radio:checked + .gender-label::before {
+  display: flex;
+  font: var(--fa-font-solid);
+  font-size: 17px !important;
+  color: #F16D7F;
+  content: '\f192';
+
+}
+
+
+.registration-button {
+  flex-shrink: 2;
+  display: flex;
+  width: 167px;
+  gap: 20px;
+  padding: 17px 29px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  fill: #FFFFFF;
+  background: #F16D7F;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #F16D7F;
+    fill: #F16D7F;
+    background: #FFFFFF;
+    border: 1px solid #F16D7F;
+  }
+
+}
+
+.registration-comment {
+  margin: 15px 0 39px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.text-block-heading {
+  margin-bottom: 22px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.text-block-text, .text-block-list {
+  margin-bottom: 21px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.text-block-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text-block-item:before {
+  content: '\f00c';
+  font: var(--fa-font-solid);
+  margin-right: 22px;
+}
+
+
