@@ -1,17 +1,18 @@
+@import "blocks/variable";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&display=swap");
-@import "PycharmProjects/HtmlCourse/css/blocks/header";
-@import "PycharmProjects/HtmlCourse/css/blocks/promo";
-@import "PycharmProjects/HtmlCourse/css/blocks/content";
-@import "PycharmProjects/HtmlCourse/css/blocks/features";
-@import "PycharmProjects/HtmlCourse/css/blocks/subscribe";
-@import "PycharmProjects/HtmlCourse/css/blocks/footer";
-@import "PycharmProjects/HtmlCourse/css/blocks/breadcrumb";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/content";
+@import "blocks/features";
+@import "blocks/subscribe";
+@import "blocks/footer";
+@import "blocks/breadcrumb";
+@import "blocks/registration";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 *, ::before, ::after {
@@ -27,7 +28,6 @@ body {
     font-style: normal;
     font-weight: normal;
     line-height: 17px;
-
 }
 
 .wrap {
