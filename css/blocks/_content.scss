@@ -37,22 +37,22 @@
 }
 
 .women-item {
-    background: url("../img/women_cat.png") rgba(33, 22, 22, 0.7) center center;
+    background: url("../../img/women_cat.png") rgba(33, 22, 22, 0.7) center center;
 
 }
 
 .men-item {
-    background: url("../img/men_cat.png") rgba(33, 22, 22, 0.7) center center;
+    background: url("../../img/men_cat.png") rgba(33, 22, 22, 0.7) center center;
 
 }
 
 .kids-item {
-    background: url("../img/kid_cat.png") rgba(33, 22, 22, 0.7) center center;
+    background: url("../../img/kid_cat.png") rgba(33, 22, 22, 0.7) center center;
 
 }
 
 .accessories-item {
-    background: url("../img/accesories_cat.png") rgba(33, 22, 22, 0.7) center center;
+    background: url("../../img/accesories_cat.png") rgba(33, 22, 22, 0.7) center center;
     width: 100%;
     height: 180px;
 }
@@ -85,6 +85,7 @@
 
 .sort-button {
     display: flex;
+    align-items: baseline;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
@@ -93,6 +94,7 @@
     gap: 11px;
     text-transform: uppercase;
     cursor: pointer;
+
     /* identical to box height */
 
 
@@ -124,6 +126,7 @@
     border: none;
     background: transparent;
     color: #6F6E6E;
+    cursor: pointer;
 
 
 }
