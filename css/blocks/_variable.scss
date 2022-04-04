@@ -1,0 +1,8 @@
+@mixin flex_container($justify:center, $gap:0, $direction:row) {
+  display: flex;
+  gap: $gap;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
+$hover-color: #F16D7F;
