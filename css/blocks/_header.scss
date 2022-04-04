@@ -36,7 +36,7 @@
   @include svg-link-transition;
 }
 
-.menu-link_button:hover, .menu-link:hover {
+.menu-link_button:hover, .menu-link:hover, .menu-link:focus, .menu-link_button:focus {
   fill: #F16D7F;
 }
 

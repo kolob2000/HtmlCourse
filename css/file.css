@@ -1,0 +1,34 @@
+.wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.wrapped {
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    -webkit-transition: -webkit-transform 1s, -webkit-transform 2s;
+    transition: -webkit-transform 1s, -webkit-transform 2s;
+    -o-transition: transform 1s, transform 2s;
+    transition: transform 1s, transform 2s;
+    transition: transform 1s, transform 2s, -webkit-transform 1s, -webkit-transform 2s;
+
+}
+
+.wrap:hover .wrapped{
+    background: lime;
+    -webkit-transform: rotateX(720deg);
+            transform: rotateX(720deg);
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3BhcmFsbGF4L2ZpbGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksb0JBQWE7SUFBYixvQkFBYTtJQUFiLGFBQWE7SUFDYix3QkFBdUI7UUFBdkIscUJBQXVCO1lBQXZCLHVCQUF1QjtJQUN2Qix5QkFBbUI7UUFBbkIsc0JBQW1CO1lBQW5CLG1CQUFtQjtJQUNuQixZQUFZO0lBQ1osYUFBYTtJQUNiLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0lBQ1oscUJBQXFCO0lBQ3JCLDhEQUFzQztJQUF0QyxzREFBc0M7SUFBdEMseUNBQXNDO0lBQXRDLHNDQUFzQztJQUF0QyxrRkFBc0M7O0FBRTFDOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGtDQUEwQjtZQUExQiwwQkFBMEI7QUFDOUIiLCJmaWxlIjoiZmlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud3JhcCB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgaGVpZ2h0OiAyMDBweDtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICMwMDA7XHJcbn1cclxuXHJcbi53cmFwcGVkIHtcclxuICAgIHdpZHRoOiA1MHB4O1xyXG4gICAgaGVpZ2h0OiA1MHB4O1xyXG4gICAgYmFja2dyb3VuZDogbGlnaHRibHVlO1xyXG4gICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDFzLCB0cmFuc2Zvcm0gMnM7XHJcblxyXG59XHJcblxyXG4ud3JhcDpob3ZlciAud3JhcHBlZHtcclxuICAgIGJhY2tncm91bmQ6IGxpbWU7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZVgoNzIwZGVnKTtcclxufVxyXG4iXX0= */

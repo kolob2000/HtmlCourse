@@ -108,15 +108,16 @@
   color: #FFFFFF;
   fill: #FFFFFF;
   background: #F16D7F;
-  border: none;
   cursor: pointer;
   @include button-transition;
+  transition: transform 2s;
 
   &:hover {
     color: #F16D7F;
     fill: #F16D7F;
     background: #FFFFFF;
-    border: 1px solid #F16D7F;
+    outline: 1px solid #F16D7F;
+    transform: rotateX(360deg);
   }
 
 }

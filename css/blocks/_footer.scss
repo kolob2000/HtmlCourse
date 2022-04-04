@@ -37,7 +37,7 @@
   @include button-transition;
 }
 
-.social-link:hover {
+.social-link:hover, .social-link:focus {
   background-color: #F16D7F;
   fill: #FFFFFF;
 }
