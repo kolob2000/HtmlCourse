@@ -110,6 +110,7 @@
   background: #F16D7F;
   border: none;
   cursor: pointer;
+  @include button-transition;
 
   &:hover {
     color: #F16D7F;

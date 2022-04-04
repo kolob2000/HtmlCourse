@@ -259,6 +259,7 @@
   height: 48px;
   font-size: 16px;
   line-height: 19px;
+  @include button-transition;
 }
 
 .offer-link:hover {
