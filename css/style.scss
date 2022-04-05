@@ -36,6 +36,14 @@ body {
 .wrap {
   margin: 0 auto;
   max-width: 1140px;
+  @media screen and (max-width: 1160px) {
+    max-width: 768px;
+
+  }
+  @media screen and (max-width: 784px) {
+    max-width: 375px;
+
+  }
 }
 
 ul {

@@ -143,21 +143,72 @@
         <div class="options">
             <div class="options-sort">
                 <button class="sort-button">filter
-                    <svg class="sort-img" width="38" height="25" viewBox="0 0 38 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="sort-img" width="38" height="25" viewBox="0 0 38 25" fill=""
+                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.08333 25H10.4167C11.5625 25 12.5 24.0625 12.5 22.9167C12.5 21.7708 11.5625 20.8333 10.4167 20.8333H2.08333C0.9375 20.8333 0 21.7708 0 22.9167C0 24.0625 0.9375 25 2.08333 25ZM0 2.08333C0 3.22917 0.9375 4.16667 2.08333 4.16667H35.4167C36.5625 4.16667 37.5 3.22917 37.5 2.08333C37.5 0.9375 36.5625 0 35.4167 0H2.08333C0.9375 0 0 0.9375 0 2.08333ZM2.08333 14.5833H22.9167C24.0625 14.5833 25 13.6458 25 12.5C25 11.3542 24.0625 10.4167 22.9167 10.4167H2.08333C0.9375 10.4167 0 11.3542 0 12.5C0 13.6458 0.9375 14.5833 2.08333 14.5833Z"
                               fill=""/>
                     </svg>
                 </button>
             </div>
             <ul class="filter-list">
-                <li class="filter-item">
-                    <button class="filter-button">TRENDING NOW</button>
+                <li class="detail-filter-item">
+                    <details class="detail-filter-wrap">
+                        <summary class="detail-filter-title">TRENDING NOW</summary>
+                        <ul class="detail-filter-list">
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="jacket" value="" id="jacket" class="detail-filter-radio">
+                                <label for="jacket" class="detail-filter-label">jacket</label>
+                            </li>
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="t-shirt" value="" id="t-shirt" class="detail-filter-radio">
+                                <label for="t-shirt" class="detail-filter-label">t-shirt</label>
+                            </li>
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="trouser" value="" id="trouser" class="detail-filter-radio">
+                                <label for="trouser" class="detail-filter-label">trouser</label>
+                            </li>
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="shoes" value="" id="shoes" class="detail-filter-radio">
+                                <label for="shoes" class="detail-filter-label">shoes</label>
+                            </li>
+                        </ul>
+                    </details>
                 </li>
-                <li class="filter-item">
-                    <button class="filter-button">size</button>
+                <li class="detail-filter-item">
+                    <details class="detail-filter-wrap">
+                        <summary class="detail-filter-title">size</summary>
+                        <ul class="detail-filter-list">
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="xs" value="" id="xs" class="detail-filter-radio">
+                                <label for="xs" class="detail-filter-label">xs</label>
+                            </li>
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="s" value="" id="s" class="detail-filter-radio">
+                                <label for="s" class="detail-filter-label">s</label>
+                            </li>
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="m" value="" id="m" class="detail-filter-radio">
+                                <label for="m" class="detail-filter-label">m</label>
+                            </li>
+                            <li class="detail-filter-subitem">
+                                <input type="checkbox" name="l" value="" id="l" class="detail-filter-radio">
+                                <label for="l" class="detail-filter-label">l</label>
+                            </li>
+                        </ul>
+                    </details>
                 </li>
-                <li class="filter-item">
-                    <button class="filter-button">price</button>
+                <li class="detail-filter-item">
+                    <details class="detail-filter-wrap">
+                        <summary class="detail-filter-title">price</summary>
+                        <ul class="detail-filter-list range-price">
+                            <label for="price">799 </label>
+                            <li class="detail-filter-subitem"><input type="range" name="price" value="799" step="10"
+                                                                     class="detail-filter-price" id="price" min="779"
+                                                                     max="43299">
+                                <label for="price">43299 </label>
+                            </li>
+                        </ul>
+                    </details>
                 </li>
             </ul>
             <div class="empty-div"></div>
