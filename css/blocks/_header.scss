@@ -8,6 +8,16 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  @media screen and (max-width: 1150px) {
+    padding: 0 32px;
+
+
+  }
+  @media screen and (max-width: 784px) {
+    padding: 0 16px;
+
+
+  }
 }
 
 .left-menu__list, .right-menu__list {
@@ -44,6 +54,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
+  z-index: 1;
   background: #FFFFFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   width: 232px;
@@ -87,5 +98,11 @@
   line-height: 17px;
   color: #6F6E6E;
   text-transform: capitalize;
+}
+
+.menu-login, .menu-basket {
+  @media screen and (max-width: 784px) {
+    display: none;
+  }
 }
 

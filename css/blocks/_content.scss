@@ -11,6 +11,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (max-width: 1150px) {
+    padding: 0 14px;
+  }
+  @media screen and (max-width: 784px) {
+    padding: 0 0px;
+
+  }
 }
 
 .catalogs {
@@ -18,6 +25,13 @@
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  @media screen and (max-width: 1150px) {
+    gap: 19px;
+  }
+  @media screen and (max-width: 784px) {
+    gap: 32px;
+    padding: 0 16px;
+  }
 }
 
 .catalogs-link {
@@ -34,27 +48,46 @@
   height: 260px;
   text-transform: uppercase;
   background-blend-mode: overlay;
+  @media screen and (max-width: 1150px) {
+    width: 233px;
+    height: 168px;
+  }
+  @media screen and (max-width: 784px) {
+    width: 342px;
+    height: 247px;
+  }
 }
 
 .women-item {
   background: url("../../img/women_cat.png") rgba(33, 22, 22, 0.7) center center;
+  background-size: contain;
 
 }
 
 .men-item {
   background: url("../../img/men_cat.png") rgba(33, 22, 22, 0.7) center center;
+  background-size: contain;
 
 }
 
 .kids-item {
   background: url("../../img/kid_cat.png") rgba(33, 22, 22, 0.7) center center;
+  background-size: contain;
 
 }
 
 .accessories-item {
   background: url("../../img/accesories_cat.png") rgba(33, 22, 22, 0.7) center center;
+  background-size: contain;
+
   width: 100%;
   height: 180px;
+  @media screen and (max-width: 1150px) {
+    height: 116px;
+  }
+  @media screen and (max-width: 784px) {
+    height: 111px;
+  }
 }
 
 .catalogs-categories {
@@ -116,7 +149,7 @@
 .filter-list {
   display: flex;
   gap: 28px;
-  width: 360px;
+  //width: 360px;
 }
 
 .empty-div {
@@ -174,6 +207,12 @@
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+  @media screen and (max-width: 1150px) {
+    gap: 16px;
+  }
+  @media screen and (max-width: 784px) {
+    gap: 16px;
+  }
 }
 
 .product-item {

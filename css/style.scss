@@ -10,6 +10,7 @@
 @import "blocks/breadcrumb";
 @import "blocks/registration";
 @import "blocks/cart";
+@import "blocks/product-main";
 
 * {
   margin: 0;
@@ -35,6 +36,14 @@ body {
 .wrap {
   margin: 0 auto;
   max-width: 1140px;
+  @media screen and (max-width: 1160px) {
+    max-width: 768px;
+
+  }
+  @media screen and (max-width: 784px) {
+    max-width: 375px;
+
+  }
 }
 
 ul {
@@ -74,4 +83,12 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
 }
